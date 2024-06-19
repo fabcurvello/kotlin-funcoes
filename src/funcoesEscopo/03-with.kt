@@ -1,4 +1,4 @@
-// https://play.kotlinlang.org/byExample/06_scope_functions/03_with
+package funcoesEscopo// https://play.kotlinlang.org/byExample/06_scope_functions/03_with
 
 // with
 /*
