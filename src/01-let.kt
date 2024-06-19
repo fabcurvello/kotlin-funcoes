@@ -14,9 +14,9 @@ fun customPrint(s: String) {
 }
 
 fun main() {
-    val empty = "test".let {               // 1 - "test" está usando a função de escopo let
+    val empty = "text".let {               // 1 - "test" está usando a função de escopo let
         customPrint(it)                    // 2 - chamou customPrint() passando "test"
-        it.isEmpty()                       // 3 - Valida se it (que é o "test") é nulo
+        it.isEmpty()                       // 3 - Valida se it (que é o "test") é nulo. A última instrução será o retorno.
     }
     println(" is empty: $empty")
 
